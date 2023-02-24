@@ -1,8 +1,5 @@
-num_actual = int(input("Ingrese un número: "))
-num_anterior = 0
+# vamos a desarrollar un algoritmo que muestre los numeros divisibles entre 5 
+# de una lista de numeros
 
-while num_actual != 0:
-    suma = num_actual + num_anterior
-    print(f"La suma de {num_actual} y {num_anterior} es {suma}")
-    num_anterior = num_actual
-    num_actual = int(input("Ingrese otro número: "))
+# creando nuestro Lista de numeros 
+numeros = [15, 24, 35, 42, 50, 66, 73]
