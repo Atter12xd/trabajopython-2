@@ -6,4 +6,6 @@ a = int(input("Ingrese el valor: "))
 for i in range (1, a ):
     a = i
     suma = a + (a-1)
-    
+# Ahora tocaria sumar del numerol actual y su anterior 
+
+    print("la suma de", a, "+", a - 1, "es", suma)
