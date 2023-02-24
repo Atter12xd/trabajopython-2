@@ -1,9 +1,8 @@
-# Vamos a desarrollar un algoritmo en la que muestra la suma del numero actual y su anterior
-# Vamos a indicar cuantos numeros desea
-a = int(input("Ingrese el valor: "))
-# Ahora usaremos las funciones "for" "in" "range"
-for i in range (1, a +1):
-    a = i
-    suma = a + (a-1)
-# Ahora tocaria sumar del numerol actual y su anterior 
-    print("la suma de", a, "+", a - 1, "es", suma)
+num_actual = int(input("Ingrese un número: "))
+num_anterior = 0
+
+while num_actual != 0:
+    suma = num_actual + num_anterior
+    print(f"La suma de {num_actual} y {num_anterior} es {suma}")
+    num_anterior = num_actual
+    num_actual = int(input("Ingrese otro número: "))
